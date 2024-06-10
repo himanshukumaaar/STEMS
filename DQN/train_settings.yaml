@@ -1,0 +1,21 @@
+simulation:
+    gui: False
+    total_episodes: 400
+    max_steps: 4000
+    green_duration: 10
+    yellow_duration: 3
+    save_every: 5
+
+model:
+    fc_dims: [400, 400, 400, 400]
+    batch_size: 64
+    learning_rate: 0.001
+    update_every: 500
+
+memory:
+    capacity: 5000
+
+agent:
+    num_states: 56
+    num_actions: 4
+    gamma: 0.75
