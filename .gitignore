@@ -1,6 +1,38 @@
-models/*
-!models/DQN_13
-models/DQN_13/*
-!models/DQN_13/checkpoint_395.pt
+# Python
 __pycache__/
-.github/workflows
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Environment variables
+.env
+
+# Static files
+staticfiles/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (if used)
+node_modules/
+
+# Cover
